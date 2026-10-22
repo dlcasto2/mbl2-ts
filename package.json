@@ -1,0 +1,16 @@
+{
+  "name": "mbl2-ts",
+  "version": "1.0.0",
+  "description": "Faithful TypeScript port of the MaterialBinLoader2 project.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.6.3"
+  }
+}
